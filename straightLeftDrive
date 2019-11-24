@@ -1,0 +1,24 @@
+
+import time
+import machine
+
+Pin_a = 13
+Pin_b = 14
+#self.invert = invert
+freq = 30000
+forward_pin = machine.Pin(Pin_a)
+forward_pin = machine.PWM(forward_pin)
+backward_pin = machine.Pin(Pin_b)
+backward_pin = machine.PWM(backward_pin)
+forward_pin.freq(freq)
+backward_pin.freq(freq)
+while True:
+  #left_motor.drive(1)
+  forward_pin.duty(1000)
+  backward_pin.duty(0)
+  time.sleep(2)
+  #left_motor.drive(-1)
+  forward_pin.duty(0)
+  backward_pin.duty(0)
+  time.sleep(2)
+  #left_motor.drive(0)
