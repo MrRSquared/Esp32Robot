@@ -1,4 +1,5 @@
-/* This code is to use with ToF10120 to measure distance in (mm) and shows it on the Serial monitor using Ic inteface
+/* This code is here as a quick reference.  It is copied directly from https://create.arduino.cc/projecthub/SurtrTech/tof-10120-laser-rangefinder-to-measure-distance-lcd-9e549a?f=1
+ * This code is to use with ToF10120 to measure distance in (mm) and shows it on the Serial monitor using Ic inteface
  * Modified and adapted from a code found on some dodgy chinese website
  * Refer to www.SurtrTech.com for more details
  */
